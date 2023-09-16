@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: BuildingMiddle
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 8970461201294512804, guid: adc4f0cb29bf0c64080960452003982e, type: 3}
+  - {fileID: 6109965777405467441, guid: f0268ce76963dec48afbbe87b1f879e4, type: 3}
+  weights:
+  - 0.5
+  - 0.5
+  tileWeight: 1
+  direction: 0
+  northSide: 0000000004000000
+  westSide: 03000000
+  eastSide: 03000000
+  southSide: 0000000004000000
+  restrictionNorthSide: []
+  restrictionWestSide: []
+  restrictionEastSide: []
+  restrictionSouthSide: []

@@ -1,0 +1,29 @@
+{
+    "name": "Assembly",
+    "rootNamespace": "",
+    "references": [
+        "Cinemachine",
+        "Unity.InputSystem",
+        "Unity.ML-Agents.Editor",
+        "Unity.ML-Agents",
+        "Unity.ML-Agents.CommunicatorObjects",
+        "Unity.ML-Agents.Editor.Tests",
+        "Unity.ML-Agents.Runtime.Tests",
+        "Unity.ML-Agents.Extensions.Editor",
+        "Unity.ML-Agents.Extensions.Editor.Input",
+        "Unity.ML-Agents.Extensions",
+        "Unity.ML-Agents.Extensions.Input",
+        "Unity.ML-Agents.Extensions.Tests",
+        "Unity.ML-Agents.Extensions.Input.Tests.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

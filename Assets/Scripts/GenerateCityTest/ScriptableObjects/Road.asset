@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 7650691612283829268, guid: 567486e0484e7ab48a1e0b6d7e4e17cb, type: 3}
+  - {fileID: 6259350660568384419, guid: e77cf83f857c64b4eb07a2f182e36ca3, type: 3}
+  - {fileID: 3798776967939692713, guid: 2ff73b44f9d824e468e1c9c0a28d240f, type: 3}
+  - {fileID: 1935559335396608542, guid: 01191c8653e7f5e47a6aeb91930d42dd, type: 3}
+  weights:
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.25
+  isObstacle: 0
+  tileWeight: 1
+  direction: 1
+  northSide: 0000000004000000
+  westSide: 01000000
+  eastSide: 01000000
+  southSide: 0000000004000000
+  restrictionNorthSide:
+  - {fileID: 11400000, guid: fbcada9955dbfd6459f3438bc1560a8a, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: eee4eec3eec1d864eb58010085bb00dc, type: 2}
+  - {fileID: 11400000, guid: f90ab8339464f6249b8481081782d3ce, type: 2}
+  - {fileID: 11400000, guid: 2bbff12656759754aa5f43cc0f611f2a, type: 2}
+  - {fileID: 11400000, guid: 5a18dabd8f22bb9449a6709fdf349bdc, type: 2}
+  restrictionWestSide: []
+  restrictionEastSide: []
+  restrictionSouthSide:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: fbcada9955dbfd6459f3438bc1560a8a, type: 2}
+  - {fileID: 11400000, guid: eee4eec3eec1d864eb58010085bb00dc, type: 2}
+  - {fileID: 11400000, guid: f90ab8339464f6249b8481081782d3ce, type: 2}
+  - {fileID: 11400000, guid: 2bbff12656759754aa5f43cc0f611f2a, type: 2}
+  - {fileID: 11400000, guid: 5a18dabd8f22bb9449a6709fdf349bdc, type: 2}

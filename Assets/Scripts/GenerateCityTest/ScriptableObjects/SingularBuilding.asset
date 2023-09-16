@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: SingularBuilding
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 8806165389166197650, guid: 2bfef4bc58d1aef43b2387d4fb91d99b, type: 3}
+  - {fileID: 2978452489069372575, guid: f1a97fb849e74214c9c990ea3740899c, type: 3}
+  - {fileID: 724755225593163774, guid: 7d73ead79a6d4b344842092617c8830e, type: 3}
+  - {fileID: 6844727876203957790, guid: d83f9034fa7cc494e802c252708a640c, type: 3}
+  - {fileID: 1312089844016286527, guid: 58d88b1d89690da40b506e3b0c66c481, type: 3}
+  - {fileID: 3040861717590231363, guid: c24391663ed8945468ea5e67aaee6eb3, type: 3}
+  - {fileID: 7886486311701042851, guid: ed3dffdcdec28b4418041e5c88f75b2d, type: 3}
+  - {fileID: 774318798097671457, guid: ce614eea3ab7f0344aa30b7753242702, type: 3}
+  - {fileID: 6336388307778746447, guid: 090f5a30cac831b4db48a8bef1f519d6, type: 3}
+  - {fileID: 2815624489774875599, guid: 61ab87d5222db184aac24215eedd4370, type: 3}
+  - {fileID: 5799267573472267717, guid: 1fa492e8cbe4f9d44be5a39ca2c9b443, type: 3}
+  - {fileID: 2910563561898470879, guid: 36b0cb8c45fceda40aa5df3491d506d0, type: 3}
+  weights:
+  - 0.1
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  - 0.09
+  isObstacle: 0
+  tileWeight: 1
+  direction: 2
+  northSide: 04000000
+  westSide: 00000000
+  eastSide: 00000000
+  southSide: 00000000
+  restrictionNorthSide:
+  - {fileID: 11400000, guid: 11e31435190018447b3726f59322dde8, type: 2}
+  - {fileID: 11400000, guid: 4eb6729e4a2ccaf4fbd3d83ac38aec7d, type: 2}
+  - {fileID: 11400000, guid: 68e45709d99fe7f48902d6ecda1c4cc9, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2fdc990a5db83ad4aa87a328451ecb79, type: 2}
+  - {fileID: 11400000, guid: f4e75c582278d424cacb79805466198a, type: 2}
+  restrictionWestSide: []
+  restrictionEastSide: []
+  restrictionSouthSide: []

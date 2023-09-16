@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: SideWalk
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 4134679877250668493, guid: 03122233b1bbb884091197ceabca3f20, type: 3}
+  - {fileID: 281162497809530006, guid: c187c17a868f15a45bdabfca96d96a68, type: 3}
+  - {fileID: 3218341515355250487, guid: 17e62676cea7cc0458879bb396f9ade3, type: 3}
+  - {fileID: 7134933070018612910, guid: 45931aaa277b2a14097339ee74f45acd, type: 3}
+  weights:
+  - 0.1
+  - 0.7
+  - 0.1
+  - 0.1
+  tileWeight: 1
+  direction: 1
+  northSide: 00000000
+  westSide: 00000000
+  eastSide: 00000000
+  southSide: 00000000
+  restrictionNorthSide: []
+  restrictionWestSide: []
+  restrictionEastSide: []
+  restrictionSouthSide: []

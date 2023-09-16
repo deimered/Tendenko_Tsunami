@@ -1,0 +1,80 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Resources/ThirdLevelStyle.uss?fileID=7433441132597879392&amp;guid=211acfa01617d5643b0734b72419aab2&amp;type=3#ThirdLevelStyle" />
+    <ui:VisualElement name="background" style="flex-grow: 1; width: auto; height: auto;">
+        <ui:VisualElement name="upper_icon_bar" style="width: 100%; height: 12%; flex-direction: row-reverse;">
+            <ui:VisualElement name="settings_icon" style="flex-direction: column; background-image: none; width: 3%; height: 45%; margin-right: 3%; margin-top: 2%;">
+                <ui:Button display-tooltip-when-elided="true" name="settings_button" class="item-button" style="background-image: url(&apos;project://database/Assets/UI/icons/settings.png?fileID=2800000&amp;guid=48cc4eff654de5040baba1b611d1543e&amp;type=3#settings&apos;); flex-shrink: 1; flex-grow: 1; height: 100%; -unity-background-scale-mode: scale-and-crop; width: 86%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="eventBackground" style="width: 60%; height: 64%; margin-left: 32%; margin-right: 2%; margin-top: 7%; margin-bottom: 6%; background-color: rgba(0, 0, 0, 0); opacity: 1; background-image: url(&apos;project://database/Assets/UI/icons/blue_square.png?fileID=2800000&amp;guid=7f9e68861e8b3854e903ff9370aca141&amp;type=3#blue_square&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgba(255, 255, 255, 0.87);">
+            <ui:Label display-tooltip-when-elided="true" name="eventText" style="height: 58%; width: 90%; margin-left: 5%; margin-right: 4%; margin-top: 5%; align-items: stretch; -unity-text-align: upper-left; padding-right: 0; padding-left: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 0; color: rgb(0, 0, 0); font-size: 30px; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; white-space: normal;" />
+            <ui:VisualElement name="itensList" style="height: 30%; justify-content: center; flex-direction: row; display: none;">
+                <ui:VisualElement name="itemSlot" class="item-slot">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton1" class="item-button" style="background-image: none;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemSlot2" class="item-slot" style="display: flex;">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton2" class="item-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemSlot3" class="item-slot">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton3" class="item-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemSlot4" class="item-slot">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton4" class="item-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemSlot5" class="item-slot">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton5" class="item-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="itemSlot6" class="item-slot">
+                    <ui:Button display-tooltip-when-elided="true" name="itemButton6" class="item-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="noItem" class="item-slot">
+                    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="noItemButton" class="item-button" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/UI/icons/white_arrow.png?fileID=2800000&amp;guid=009e64dea2f97ff45a4c17ba9171417e&amp;type=3#white_arrow&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="itensListScroll" style="height: 30%; justify-content: center; flex-direction: row; align-items: center; width: 100%;">
+                <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" show-vertical-scroller="false" horizontal-scroller-visibility="Hidden" focusable="false" name="itemScroll" touch-scroll-type="Elastic" vertical-scroller-visibility="Hidden" style="height: 100%; width: 75%;" />
+                <ui:VisualElement name="ignoreNextEvent" style="height: 100%; width: 15%; align-items: center; justify-content: center;">
+                    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="ignoreNextEventButton" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-image: url(&apos;project://database/Assets/UI/icons/white_arrow.png?fileID=2800000&amp;guid=009e64dea2f97ff45a4c17ba9171417e&amp;type=3#white_arrow&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-color: rgba(188, 188, 188, 0); -unity-background-scale-mode: scale-and-crop; width: 60%; height: 50%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="survivalMeters" style="position: absolute; width: 60%; height: 24%; left: 23%; min-width: 768px; align-items: stretch; padding-left: 0; margin-left: 0; margin-right: 0; top: 1%; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+        <ui:VisualElement name="foodDrinkSection" style="width: 100%; height: 50%; flex-direction: row;">
+            <ui:VisualElement name="foodSection" class="meterSection" style="justify-content: center;">
+                <ui:VisualElement name="foodIcon" class="meterIcon" style="background-image: url(&apos;project://database/Assets/UI/icons/foodMeter.png?fileID=2800000&amp;guid=1682bace5afa02f429ce09880d9c3158&amp;type=3#foodMeter&apos;);" />
+                <ui:VisualElement name="foodPoints" class="meterPointsSection">
+                    <ui:VisualElement name="foodPoint1" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_orange.png?fileID=2800000&amp;guid=dca37bbe32497534f86e4a219b2c77e9&amp;type=3#gradient_orange&apos;);" />
+                    <ui:VisualElement name="foodPoint2" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_orange.png?fileID=2800000&amp;guid=dca37bbe32497534f86e4a219b2c77e9&amp;type=3#gradient_orange&apos;);" />
+                    <ui:VisualElement name="foodPoint3" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_orange.png?fileID=2800000&amp;guid=dca37bbe32497534f86e4a219b2c77e9&amp;type=3#gradient_orange&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="drinkSection" class="meterSection" style="justify-content: center;">
+                <ui:VisualElement name="drinkIcon" class="meterIcon" style="background-image: url(&apos;project://database/Assets/UI/icons/hydration.png?fileID=2800000&amp;guid=197a1376147312948bbb2a491653e7d5&amp;type=3#hydration&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="drinkPoints" class="meterPointsSection">
+                    <ui:VisualElement name="drinkPoint1" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_blue.png?fileID=2800000&amp;guid=48e1fc5b63899f346a22b8f4a6b4e1db&amp;type=3#gradient_blue&apos;);" />
+                    <ui:VisualElement name="drinkPoint2" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_blue.png?fileID=2800000&amp;guid=48e1fc5b63899f346a22b8f4a6b4e1db&amp;type=3#gradient_blue&apos;);" />
+                    <ui:VisualElement name="drinkPoint3" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_blue.png?fileID=2800000&amp;guid=48e1fc5b63899f346a22b8f4a6b4e1db&amp;type=3#gradient_blue&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="hygieneLifeSection" style="width: 100%; height: 50%; flex-direction: row;">
+            <ui:VisualElement name="hygieneSection" class="meterSection" style="justify-content: center;">
+                <ui:VisualElement name="hygieneIcon" class="meterIcon" style="background-image: url(&apos;project://database/Assets/UI/icons/hygiene.png?fileID=2800000&amp;guid=28e60dbaf024aa34b818da455e3e3aa3&amp;type=3#hygiene&apos;);" />
+                <ui:VisualElement name="hygienePoints" class="meterPointsSection">
+                    <ui:VisualElement name="hygienePoint1" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_green.png?fileID=2800000&amp;guid=cd4029734b1d84c41897b015c3156732&amp;type=3#gradient_green&apos;);" />
+                    <ui:VisualElement name="hygienePoint2" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_green.png?fileID=2800000&amp;guid=cd4029734b1d84c41897b015c3156732&amp;type=3#gradient_green&apos;);" />
+                    <ui:VisualElement name="hygienePoint3" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_green.png?fileID=2800000&amp;guid=cd4029734b1d84c41897b015c3156732&amp;type=3#gradient_green&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="lifeSection" class="meterSection" style="justify-content: center;">
+                <ui:VisualElement name="lifeIcon" class="meterIcon" style="background-image: url(&apos;project://database/Assets/UI/icons/health-insurance.png?fileID=2800000&amp;guid=672706f79388a9a44b6aef626ddb9f53&amp;type=3#health-insurance&apos;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="lifePoints" class="meterPointsSection">
+                    <ui:VisualElement name="lifePoint1" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_red.png?fileID=2800000&amp;guid=3e8db0b421abfec4b977129aa12da34e&amp;type=3#gradient_red&apos;);" />
+                    <ui:VisualElement name="lifePoint2" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_red.png?fileID=2800000&amp;guid=3e8db0b421abfec4b977129aa12da34e&amp;type=3#gradient_red&apos;);" />
+                    <ui:VisualElement name="lifePoint3" class="point" style="background-image: url(&apos;project://database/Assets/UI/icons/gradient_red.png?fileID=2800000&amp;guid=3e8db0b421abfec4b977129aa12da34e&amp;type=3#gradient_red&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

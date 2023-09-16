@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/PopUpStyle.uss?fileID=7433441132597879392&amp;guid=bacee70f17798334da30e9e69e2d8399&amp;type=3#PopUpStyle" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.47); align-items: center; justify-content: center;">
+        <ui:VisualElement name="pop_up_background" style="background-color: rgba(16, 133, 183, 0); width: 40%; height: 40%;">
+            <ui:VisualElement name="text_area" style="height: 60%; background-color: rgb(41, 169, 224); justify-content: space-around; align-items: center; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                <ui:Label text="Go to the next level?" display-tooltip-when-elided="true" name="pop_up_text" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 30px; white-space: normal; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_area" style="flex-direction: row; justify-content: space-around; align-items: center; height: 30%;">
+                <ui:Button text="Yes" display-tooltip-when-elided="true" name="confirm_button" class="button_style" style="font-size: 26px;" />
+                <ui:Button text="No" display-tooltip-when-elided="true" name="cancel_button" class="button_style" style="font-size: 26px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

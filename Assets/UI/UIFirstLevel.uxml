@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/FirstLevelStyle.uss?fileID=7433441132597879392&amp;guid=9f55ab7415a692742a881065bb9f8114&amp;type=3#FirstLevelStyle" />
+    <ui:VisualElement name="baseBackground" style="flex-grow: 1; justify-content: flex-end; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+        <ui:Label display-tooltip-when-elided="true" name="timer" text="4:50" style="margin-left: 30%; margin-right: 30%; margin-top: 0; margin-bottom: 19%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 40%; height: 20%; color: rgb(255, 255, 255); font-size: 90px; -unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:VisualElement name="inventory" style="justify-content: space-around; background-color: rgba(27, 255, 233, 0); height: 29%; width: 50%; margin-bottom: 0; margin-left: 25%; margin-right: 25%; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-color: rgba(178, 178, 178, 0.58); border-right-color: rgba(178, 178, 178, 0.58); border-top-color: rgba(178, 178, 178, 0.58); border-bottom-color: rgba(178, 178, 178, 0.58); align-items: center; flex-direction: row; margin-top: 0; flex-wrap: wrap;">
+            <ui:VisualElement name="button_container_1" class="button-container">
+                <ui:Button display-tooltip-when-elided="true" name="inventory_pos_1" class="inventory-slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_container_2" class="button-container">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="inventory_pos_2" class="inventory-slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_container_3" class="button-container">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="inventory_pos_3" class="inventory-slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_container_4" class="button-container" style="display: none;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="inventory_pos_4" class="inventory-slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_container_5" class="button-container" style="display: none;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="inventory_pos_5" class="inventory-slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button_container_6" class="button-container" style="display: none;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="inventory_pos_6" class="inventory-slot" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="upper_icon_bar" style="width: 100%; height: 12%; flex-direction: row-reverse; position: absolute;">
+        <ui:VisualElement name="settings_icon" class="upper_bar_icon">
+            <ui:Button display-tooltip-when-elided="true" name="settings_button" class="upper_bar_button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="reload_icon" class="upper_bar_icon">
+            <ui:Button display-tooltip-when-elided="true" name="reload_button" class="upper_bar_button" style="background-image: url(&apos;project://database/Assets/UI/icons/reload.png?fileID=2800000&amp;guid=1a8606663702ea847854518d2cbc7ba9&amp;type=3#reload&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

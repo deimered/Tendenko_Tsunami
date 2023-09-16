@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: BuildingEdgeStairs
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 8461050194616301687, guid: 1b923a8ad5b23ee45b363332a6d7ac7a, type: 3}
+  weights:
+  - 1
+  tileWeight: 1
+  direction: 0
+  northSide: 0000000004000000
+  westSide: 03000000
+  eastSide: 0000000004000000
+  southSide: 0000000004000000
+  restrictionNorthSide:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2fdc990a5db83ad4aa87a328451ecb79, type: 2}
+  restrictionWestSide: []
+  restrictionEastSide:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2fdc990a5db83ad4aa87a328451ecb79, type: 2}
+  restrictionSouthSide:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2fdc990a5db83ad4aa87a328451ecb79, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f48de2a9d21ac4a9ab947e3f25a367, type: 3}
+  m_Name: Radio
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 6d547ea4fc90ac64e841ce261ab5c53d, type: 3}
+  itemType: 1
+  itemFunction: 2
+  maxDurability: 3
+  durability: 3
+  space: 1
+  itemPrice: 2000
+  bought: 1
+  successText: Radio funcionou
+  failureText: "Radio n\xE3o funcionou."
+  itemDescription: Useful for obtaining information.
+  itemName: Radio

@@ -1,0 +1,126 @@
+.button_pause {
+    background-color: rgba(56, 56, 56, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-image: url('project://database/Assets/UI/icons/option_background-removebg-preview.png?fileID=2800000&guid=fb35d1d2e34b3ed4fbc7177ee3ddb08f&type=3#option_background-removebg-preview');
+    flex-shrink: 0;
+    flex-grow: 0;
+    -unity-background-scale-mode: scale-and-crop;
+    height: 23%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#unity-drag-container {
+    height: 80%;
+    width: 100%;
+}
+
+#unity-tracker {
+    width: 100%;
+    height: 40%;
+    margin-top: 1%;
+    background-color: rgb(17, 198, 214);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#unity-dragger-border {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#unity-dragger {
+    background-image: url('project://database/Assets/UI/icons/slider_blue_ball.png?fileID=2800000&guid=f59cb5e104c757a44a60effa9237fcdb&type=3#slider_blue_ball');
+    height: 77%;
+    -unity-background-scale-mode: scale-and-crop;
+    background-color: rgba(56, 56, 56, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.icon_button {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-and-crop;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 50%;
+    width: 55%;
+}
+
+.icon_background {
+    background-image: url('project://database/Assets/UI/icons/slider_blue_ball.png?fileID=2800000&guid=f59cb5e104c757a44a60effa9237fcdb&type=3#slider_blue_ball');
+    -unity-background-scale-mode: scale-and-crop;
+    height: 40%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.text_size {
+    font-size: 150%;
+}

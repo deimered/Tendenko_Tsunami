@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f48de2a9d21ac4a9ab947e3f25a367, type: 3}
+  m_Name: FirstAidKit
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 161e371c054ef2c4187eeefc56a84f38, type: 3}
+  itemType: 2
+  itemFunction: 3
+  maxDurability: 3
+  durability: 3
+  space: 1
+  itemPrice: 10000
+  bought: 1
+  successText: Medkit usado
+  failureText: "Medkit desperdi\xE7ado"
+  itemDescription: Medkit for cases of injury.
+  itemName: MedKit

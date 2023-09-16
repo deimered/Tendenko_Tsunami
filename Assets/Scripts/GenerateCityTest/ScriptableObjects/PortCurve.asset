@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf8962bd8712dd4f978c25084742f7b, type: 3}
+  m_Name: PortCurve
+  m_EditorClassIdentifier: 
+  tileVariations:
+  - {fileID: 7727033620443876477, guid: 77718ea18266eb041bfaa1c6dc474e44, type: 3}
+  weights:
+  - 1
+  tileWeight: 1
+  direction: 1
+  northSide: 00000000
+  westSide: 00000000
+  eastSide: 05000000
+  southSide: 05000000
+  restrictionNorthSide: []
+  restrictionWestSide: []
+  restrictionEastSide: []
+  restrictionSouthSide: []

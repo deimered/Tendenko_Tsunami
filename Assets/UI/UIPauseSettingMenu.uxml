@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/PauseSettingsStyle.uss?fileID=7433441132597879392&amp;guid=88f3a7ea2fb390646815db0b0c397205&amp;type=3#PauseSettingsStyle" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.47); justify-content: center; align-items: center; width: auto; height: auto;">
+        <ui:VisualElement name="pause_menu_background" style="height: 70%; width: 30%; margin-top: 0; align-items: center; justify-content: flex-end; display: flex;">
+            <ui:Button text="Resume" display-tooltip-when-elided="true" name="resume" class="button_pause" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings" class="button_pause" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="button_pause" />
+        </ui:VisualElement>
+        <ui:VisualElement name="settings_menu_background" style="display: none; height: 80%; width: 80%; flex-direction: column; justify-content: center;">
+            <ui:VisualElement name="settins_options" style="flex-direction: row; justify-content: center; height: 60%; width: 100%;">
+                <ui:VisualElement name="icons_part" style="flex-direction: column; height: 100%; width: 15%; align-items: flex-end;">
+                    <ui:VisualElement name="sound_icon_background" class="icon_background">
+                        <ui:Button display-tooltip-when-elided="true" name="sound_icon" class="icon_button" style="background-image: url(&apos;project://database/Assets/UI/icons/sound_icon.png?fileID=2800000&amp;guid=b4b64936f7105b04eb819caa164c4902&amp;type=3#sound_icon&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="music_icon_background" class="icon_background">
+                        <ui:Button display-tooltip-when-elided="true" name="music_icon" class="icon_button" style="background-image: url(&apos;project://database/Assets/UI/icons/music_icon.png?fileID=2800000&amp;guid=dba4114c96e5d9b45a2fb06fb7a0079b&amp;type=3#music_icon&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height: 59%; width: 56%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="sliders_part" style="height: 100%; width: 80%;">
+                    <ui:SliderInt picking-mode="Ignore" value="50" high-value="100" name="sound_slider" style="flex-direction: row-reverse; margin-left: 2%; margin-right: 0; margin-top: 3%; margin-bottom: 0; height: 20%; width: 100%;" />
+                    <ui:SliderInt picking-mode="Ignore" value="50" high-value="100" name="music_slider" style="margin-left: 2%; margin-right: 0; margin-top: 9%; margin-bottom: 0; width: 100%; height: 20%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="back_option" style="justify-content: center; align-items: center; height: 19%;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="back" class="button_pause" style="height: 100%; width: 34%; margin-top: 0; margin-bottom: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

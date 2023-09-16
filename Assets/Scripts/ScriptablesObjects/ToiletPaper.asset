@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f48de2a9d21ac4a9ab947e3f25a367, type: 3}
+  m_Name: ToiletPaper
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 4f3ebfb86d8ff3b42b897d332df514c6, type: 3}
+  itemType: 2
+  itemFunction: 6
+  maxDurability: 4
+  durability: 4
+  space: 1
+  itemPrice: 1
+  bought: 0
+  successText: "O papel higi\xE9nico foi util."
+  failureText: "O papel higi\xE9nico n\xE3o foi util."
+  itemDescription: 
+  itemName: Toilet Paper

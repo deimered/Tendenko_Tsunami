@@ -1,0 +1,88 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Style.uss" />
+    <ui:VisualElement name="background" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" show-horizontal-scroller="false" style="flex-grow: 1; width: 100%;">
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: auto; height: 100%;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

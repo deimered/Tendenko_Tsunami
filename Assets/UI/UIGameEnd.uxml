@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI/GameEndStyle.uss?fileID=7433441132597879392&amp;guid=374366d93b4bdca4f9773d6a94c614d3&amp;type=3#GameEndStyle" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.47);">
+        <ui:VisualElement name="text_area" style="height: 20%; align-items: center; justify-content: space-around;">
+            <ui:Label text="Game Over" display-tooltip-when-elided="true" name="game_end_text" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 60px;" />
+            <ui:Label display-tooltip-when-elided="true" name="second_text" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; color: rgba(255, 255, 255, 255); -unity-font-style: bold; font-size: 25px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="points_area" style="height: 66%; align-items: center; justify-content: center;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="scroll_points" class="scroll_area">
+                <ui:VisualElement name="first_level_points" style="width: 100%; display: none;">
+                    <ui:Label text="Exiting the house" display-tooltip-when-elided="true" name="first_level_title" class="level_title" />
+                </ui:VisualElement>
+                <ui:VisualElement name="second_level_points" style="width: 100%; display: none;">
+                    <ui:Label text="Run from the tsunami" display-tooltip-when-elided="true" name="second_level_title" class="level_title" />
+                </ui:VisualElement>
+                <ui:VisualElement name="third_level_points" style="width: 100%; display: none;">
+                    <ui:Label text="Surviving" display-tooltip-when-elided="true" name="third_level_title" class="level_title" />
+                </ui:VisualElement>
+                <ui:VisualElement name="total_points" style="flex-direction: row; width: 100%; background-color: rgb(61, 115, 255); align-items: center; display: none;">
+                    <ui:Label text="Total : " display-tooltip-when-elided="true" name="total_points_text" class="level_title" style="width: auto; flex-direction: row; height: auto; padding-right: 1%;" />
+                    <ui:VisualElement name="coin_icon" style="background-image: url(&apos;project://database/Assets/UI/icons/tsunami_coin.png?fileID=2800000&amp;guid=c4f5af966408d5f4bb1883d4d86d5c55&amp;type=3#tsunami_coin&apos;); width: 3%; height: 60%; -unity-background-scale-mode: scale-and-crop; display: flex;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="button_area" style="height: 14%; flex-direction: row; align-items: center; justify-content: space-around;">
+            <ui:Button text="Replay" display-tooltip-when-elided="true" name="replay_button" class="button" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit_button" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
